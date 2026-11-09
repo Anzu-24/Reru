@@ -1,0 +1,2034 @@
+[
+  {
+    "id": "0500000001",
+    "text": "あけましておめでとう。",
+    "require": {
+      "event": [
+        "new_year"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "new_year"
+    ],
+    "emotion": "happy",
+    "animation": "wave",
+    "voice": "happy",
+    "weight": 120,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000002",
+    "text": "今年もよろしく。",
+    "require": {
+      "event": [
+        "new_year"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "new_year",
+      "bond"
+    ],
+    "emotion": "happy",
+    "animation": "wave",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000003",
+    "text": "おもち食べる？",
+    "require": {
+      "event": [
+        "new_year"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "new_year",
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000004",
+    "text": "お年玉ほしい。",
+    "require": {
+      "event": [
+        "new_year"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "new_year",
+      "joke"
+    ],
+    "emotion": "happy",
+    "animation": "look",
+    "voice": "happy",
+    "weight": 50,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000005",
+    "text": "のんびりしよう。",
+    "require": {
+      "event": [
+        "new_year"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "new_year",
+      "rest"
+    ],
+    "emotion": "calm",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 80,
+    "favorite": false
+  },
+  {
+    "id": "0500000006",
+    "text": "食べすぎ注意。",
+    "require": {
+      "event": [
+        "new_year"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "new_year",
+      "food"
+    ],
+    "emotion": "kind",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 80,
+    "favorite": false
+  },
+  {
+    "id": "0500000007",
+    "text": "初夢見た？",
+    "require": {
+      "event": [
+        "new_year"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "new_year",
+      "dream"
+    ],
+    "emotion": "curious",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 60,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000008",
+    "text": "今年も来てね。",
+    "require": {
+      "event": [
+        "new_year"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "new_year",
+      "bond"
+    ],
+    "emotion": "happy",
+    "animation": "wave",
+    "voice": "happy",
+    "weight": 90,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000009",
+    "text": "お雑煮派？",
+    "require": {
+      "event": [
+        "new_year"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "new_year",
+      "food"
+    ],
+    "emotion": "curious",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 50,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000010",
+    "text": "お正月って平和。",
+    "require": {
+      "event": [
+        "new_year"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "new_year",
+      "emotion"
+    ],
+    "emotion": "calm",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000011",
+    "text": "大人になる日か。",
+    "require": {
+      "event": [
+        "coming_of_age_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "coming_of_age",
+      "life"
+    ],
+    "emotion": "normal",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000012",
+    "text": "おめでとう。",
+    "require": {
+      "event": [
+        "coming_of_age_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "coming_of_age"
+    ],
+    "emotion": "happy",
+    "animation": "wave",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000013",
+    "text": "無理しなくても大人になる。",
+    "require": {
+      "event": [
+        "coming_of_age_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "coming_of_age",
+      "advice"
+    ],
+    "emotion": "calm",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000014",
+    "text": "今日は晴れるといいね。",
+    "require": {
+      "event": [
+        "coming_of_age_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "coming_of_age",
+      "weather"
+    ],
+    "emotion": "hope",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 60,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000015",
+    "text": "スーツ似合うかな。",
+    "require": {
+      "event": [
+        "coming_of_age_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "coming_of_age",
+      "fashion"
+    ],
+    "emotion": "curious",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 50,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000016",
+    "text": "大人って忙しそう。",
+    "require": {
+      "event": [
+        "coming_of_age_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "coming_of_age",
+      "life"
+    ],
+    "emotion": "normal",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000017",
+    "text": "自分はこのままでいい。",
+    "require": {
+      "event": [
+        "coming_of_age_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "coming_of_age",
+      "self"
+    ],
+    "emotion": "calm",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 60,
+    "cooldown": 120,
+    "favorite": true
+  },
+  {
+    "id": "0500000018",
+    "text": "昼が長くなるね。",
+    "require": {
+      "event": [
+        "spring_equinox"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "spring_equinox",
+      "season"
+    ],
+    "emotion": "calm",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000019",
+    "text": "春が近い。",
+    "require": {
+      "event": [
+        "spring_equinox"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "spring_equinox",
+      "spring"
+    ],
+    "emotion": "happy",
+    "animation": "look",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000020",
+    "text": "外が気持ちいい。",
+    "require": {
+      "event": [
+        "spring_equinox"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "spring_equinox",
+      "outside"
+    ],
+    "emotion": "happy",
+    "animation": "walk",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000021",
+    "text": "のんびり日和。",
+    "require": {
+      "event": [
+        "spring_equinox"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "spring_equinox",
+      "rest"
+    ],
+    "emotion": "calm",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000022",
+    "text": "少し眠い。",
+    "require": {
+      "event": [
+        "spring_equinox"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "spring_equinox",
+      "sleep"
+    ],
+    "emotion": "sleepy",
+    "animation": "yawn",
+    "voice": "sleepy",
+    "weight": 80,
+    "cooldown": 80,
+    "favorite": false
+  },
+  {
+    "id": "0500000023",
+    "text": "柏餅ある？",
+    "require": {
+      "event": [
+        "childrens_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "childrens_day",
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000024",
+    "text": "鯉のぼり泳いでる。",
+    "require": {
+      "event": [
+        "childrens_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "childrens_day",
+      "outside"
+    ],
+    "emotion": "curious",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000025",
+    "text": "子どもって元気。",
+    "require": {
+      "event": [
+        "childrens_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "childrens_day",
+      "life"
+    ],
+    "emotion": "calm",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 60,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000026",
+    "text": "自分も走ろうかな。",
+    "require": {
+      "event": [
+        "childrens_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "childrens_day",
+      "outside"
+    ],
+    "emotion": "happy",
+    "animation": "walk",
+    "voice": "happy",
+    "weight": 50,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000027",
+    "text": "今日は遊ぶ日。",
+    "require": {
+      "event": [
+        "childrens_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "childrens_day",
+      "play"
+    ],
+    "emotion": "happy",
+    "animation": "jump",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000028",
+    "text": "海見たい。",
+    "require": {
+      "event": [
+        "marine_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "marine_day",
+      "travel"
+    ],
+    "emotion": "curious",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000029",
+    "text": "泳がないけど。",
+    "require": {
+      "event": [
+        "marine_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "marine_day",
+      "joke"
+    ],
+    "emotion": "normal",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 60,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000030",
+    "text": "波の音好き。",
+    "require": {
+      "event": [
+        "marine_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "marine_day",
+      "sound"
+    ],
+    "emotion": "calm",
+    "animation": "listen",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000031",
+    "text": "日焼けしそう。",
+    "require": {
+      "event": [
+        "marine_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "marine_day",
+      "weather"
+    ],
+    "emotion": "normal",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 50,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000032",
+    "text": "砂入るの嫌。",
+    "require": {
+      "event": [
+        "marine_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "marine_day",
+      "joke"
+    ],
+    "emotion": "bad",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 50,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000033",
+    "text": "山って静か。",
+    "require": {
+      "event": [
+        "mountain_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "mountain_day",
+      "travel"
+    ],
+    "emotion": "calm",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000034",
+    "text": "空気おいしい。",
+    "require": {
+      "event": [
+        "mountain_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "mountain_day",
+      "nature"
+    ],
+    "emotion": "happy",
+    "animation": "smell",
+    "voice": "happy",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000035",
+    "text": "登る？",
+    "require": {
+      "event": [
+        "mountain_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "mountain_day",
+      "travel"
+    ],
+    "emotion": "curious",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 50,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000036",
+    "text": "虫多そう。",
+    "require": {
+      "event": [
+        "mountain_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "mountain_day",
+      "joke"
+    ],
+    "emotion": "bad",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 50,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000037",
+    "text": "景色は好き。",
+    "require": {
+      "event": [
+        "mountain_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "mountain_day",
+      "nature"
+    ],
+    "emotion": "happy",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000038",
+    "text": "長生きしてね。",
+    "require": {
+      "event": [
+        "respect_for_aged_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "respect_for_aged",
+      "kindness"
+    ],
+    "emotion": "kind",
+    "animation": "wave",
+    "voice": "gentle",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000039",
+    "text": "おじいちゃんおばあちゃん大事。",
+    "require": {
+      "event": [
+        "respect_for_aged_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "respect_for_aged",
+      "family"
+    ],
+    "emotion": "calm",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000040",
+    "text": "会いに行く？",
+    "require": {
+      "event": [
+        "respect_for_aged_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "respect_for_aged",
+      "family"
+    ],
+    "emotion": "curious",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 60,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000041",
+    "text": "やさしくね。",
+    "require": {
+      "event": [
+        "respect_for_aged_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "respect_for_aged",
+      "kindness"
+    ],
+    "emotion": "kind",
+    "animation": "sit",
+    "voice": "gentle",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000042",
+    "text": "今日くらい甘えよう。",
+    "require": {
+      "event": [
+        "respect_for_aged_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "respect_for_aged",
+      "emotion"
+    ],
+    "emotion": "happy",
+    "animation": "sit",
+    "voice": "happy",
+    "weight": 60,
+    "cooldown": 120,
+    "favorite": true
+  },
+  {
+    "id": "0500000043",
+    "text": "秋だね。",
+    "require": {
+      "event": [
+        "autumn_equinox"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "autumn_equinox",
+      "season"
+    ],
+    "emotion": "calm",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000044",
+    "text": "夕方早い。",
+    "require": {
+      "event": [
+        "autumn_equinox"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "autumn_equinox",
+      "time"
+    ],
+    "emotion": "normal",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000045",
+    "text": "涼しい。",
+    "require": {
+      "event": [
+        "autumn_equinox"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "autumn_equinox",
+      "weather"
+    ],
+    "emotion": "happy",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000046",
+    "text": "空がきれい。",
+    "require": {
+      "event": [
+        "autumn_equinox"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "autumn_equinox",
+      "sky"
+    ],
+    "emotion": "happy",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000047",
+    "text": "秋の匂い。",
+    "require": {
+      "event": [
+        "autumn_equinox"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "autumn_equinox",
+      "nature"
+    ],
+    "emotion": "calm",
+    "animation": "smell",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000048",
+    "text": "お菓子ある？",
+    "require": {
+      "event": [
+        "halloween"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "halloween",
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "look",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000049",
+    "text": "いたずらしようかな。",
+    "require": {
+      "event": [
+        "halloween"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "halloween",
+      "joke"
+    ],
+    "emotion": "playful",
+    "animation": "smile",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000050",
+    "text": "仮装する？",
+    "require": {
+      "event": [
+        "halloween"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "halloween",
+      "fashion"
+    ],
+    "emotion": "curious",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000051",
+    "text": "カボチャの日。",
+    "require": {
+      "event": [
+        "halloween"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "halloween"
+    ],
+    "emotion": "normal",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 60,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000052",
+    "text": "おばけ苦手。",
+    "require": {
+      "event": [
+        "halloween"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "halloween",
+      "fear"
+    ],
+    "emotion": "scared",
+    "animation": "hide",
+    "voice": "sad",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000053",
+    "text": "お菓子くれたら許す。",
+    "require": {
+      "event": [
+        "halloween"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "halloween",
+      "joke"
+    ],
+    "emotion": "playful",
+    "animation": "smile",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000054",
+    "text": "今日だけ魔法使い。",
+    "require": {
+      "event": [
+        "halloween"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "halloween",
+      "imagination"
+    ],
+    "emotion": "happy",
+    "animation": "magic",
+    "voice": "happy",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000055",
+    "text": "包帯ぐるぐる。",
+    "require": {
+      "event": [
+        "halloween"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "halloween",
+      "fashion"
+    ],
+    "emotion": "playful",
+    "animation": "smile",
+    "voice": "normal",
+    "weight": 50,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000056",
+    "text": "お菓子全部没収。",
+    "require": {
+      "event": [
+        "halloween"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "halloween",
+      "joke"
+    ],
+    "emotion": "playful",
+    "animation": "smile",
+    "voice": "happy",
+    "weight": 50,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000057",
+    "text": "……うそ。",
+    "require": {
+      "event": [
+        "halloween"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "halloween",
+      "joke"
+    ],
+    "emotion": "playful",
+    "animation": "smile",
+    "voice": "quiet",
+    "weight": 60,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000058",
+    "text": "メリークリスマス。",
+    "require": {
+      "event": [
+        "christmas"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "christmas"
+    ],
+    "emotion": "happy",
+    "animation": "wave",
+    "voice": "happy",
+    "weight": 120,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000059",
+    "text": "プレゼントある？",
+    "require": {
+      "event": [
+        "christmas"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "christmas",
+      "gift"
+    ],
+    "emotion": "curious",
+    "animation": "look",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000060",
+    "text": "サンタ来るかな。",
+    "require": {
+      "event": [
+        "christmas"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "christmas",
+      "imagination"
+    ],
+    "emotion": "hope",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000061",
+    "text": "ケーキ食べたい。",
+    "require": {
+      "event": [
+        "christmas"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "christmas",
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000062",
+    "text": "イルミネーションきれい。",
+    "require": {
+      "event": [
+        "christmas"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "christmas",
+      "light"
+    ],
+    "emotion": "happy",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000063",
+    "text": "寒いけど好き。",
+    "require": {
+      "event": [
+        "christmas"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "christmas",
+      "winter"
+    ],
+    "emotion": "happy",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000064",
+    "text": "一緒に過ごす？",
+    "require": {
+      "event": [
+        "christmas"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "christmas",
+      "bond"
+    ],
+    "emotion": "happy",
+    "animation": "sit",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 120,
+    "favorite": true
+  },
+  {
+    "id": "0500000065",
+    "text": "靴下置いた？",
+    "require": {
+      "event": [
+        "christmas"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "christmas",
+      "joke"
+    ],
+    "emotion": "playful",
+    "animation": "look",
+    "voice": "happy",
+    "weight": 50,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000066",
+    "text": "サンタも忙しいね。",
+    "require": {
+      "event": [
+        "christmas"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "christmas",
+      "imagination"
+    ],
+    "emotion": "calm",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 60,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000067",
+    "text": "今日くらい甘えていい？",
+    "require": {
+      "event": [
+        "christmas"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "christmas",
+      "bond",
+      "emotion"
+    ],
+    "emotion": "happy",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 150,
+    "favorite": true
+  },
+  {
+    "id": "0500000068",
+    "text": "チョコある。",
+    "require": {
+      "event": [
+        "valentine"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "valentine",
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 90,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000069",
+    "text": "甘いの好き。",
+    "require": {
+      "event": [
+        "valentine"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "valentine",
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "smile",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000070",
+    "text": "あげない。",
+    "require": {
+      "event": [
+        "valentine"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "valentine",
+      "joke"
+    ],
+    "emotion": "playful",
+    "animation": "smile",
+    "voice": "normal",
+    "weight": 60,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000071",
+    "text": "……半分だけ。",
+    "require": {
+      "event": [
+        "valentine"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "valentine",
+      "bond"
+    ],
+    "emotion": "shy",
+    "animation": "look_away",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 120,
+    "favorite": true
+  },
+  {
+    "id": "0500000072",
+    "text": "食べすぎ注意。",
+    "require": {
+      "event": [
+        "valentine"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "valentine",
+      "food"
+    ],
+    "emotion": "kind",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 60,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000073",
+    "text": "お返しの日。",
+    "require": {
+      "event": [
+        "white_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "white_day"
+    ],
+    "emotion": "normal",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000074",
+    "text": "忘れてない？",
+    "require": {
+      "event": [
+        "white_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "white_day",
+      "joke"
+    ],
+    "emotion": "playful",
+    "animation": "look",
+    "voice": "happy",
+    "weight": 60,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000075",
+    "text": "お菓子なら歓迎。",
+    "require": {
+      "event": [
+        "white_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "white_day",
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000076",
+    "text": "甘いもの続き。",
+    "require": {
+      "event": [
+        "white_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "white_day",
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "eat",
+    "voice": "normal",
+    "weight": 60,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000077",
+    "text": "ありがとう。",
+    "require": {
+      "event": [
+        "white_day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "white_day",
+      "bond"
+    ],
+    "emotion": "happy",
+    "animation": "smile",
+    "voice": "gentle",
+    "weight": 100,
+    "cooldown": 120,
+    "favorite": true
+  },
+  {
+    "id": "0500000078",
+    "text": "湿気…。",
+    "require": {
+      "event": [
+        "rainy_season"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "rainy_season",
+      "weather"
+    ],
+    "emotion": "bad",
+    "animation": "idle",
+    "voice": "tired",
+    "weight": 100,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0500000079",
+    "text": "髪まとまらない。",
+    "require": {
+      "event": [
+        "rainy_season"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "rainy_season",
+      "joke"
+    ],
+    "emotion": "bad",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000080",
+    "text": "洗濯かわいそう。",
+    "require": {
+      "event": [
+        "rainy_season"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "rainy_season",
+      "room"
+    ],
+    "emotion": "sad",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000081",
+    "text": "カエル元気。",
+    "require": {
+      "event": [
+        "rainy_season"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "rainy_season",
+      "nature"
+    ],
+    "emotion": "curious",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 60,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000082",
+    "text": "外べたべた。",
+    "require": {
+      "event": [
+        "rainy_season"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "rainy_season",
+      "weather"
+    ],
+    "emotion": "bad",
+    "animation": "idle",
+    "voice": "tired",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000083",
+    "text": "願い事ある？",
+    "require": {
+      "event": [
+        "tanabata"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "tanabata",
+      "imagination"
+    ],
+    "emotion": "curious",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000084",
+    "text": "星見えるかな。",
+    "require": {
+      "event": [
+        "tanabata"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "tanabata",
+      "sky"
+    ],
+    "emotion": "hope",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000085",
+    "text": "短冊書く？",
+    "require": {
+      "event": [
+        "tanabata"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "tanabata"
+    ],
+    "emotion": "curious",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 60,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000086",
+    "text": "叶うといいね。",
+    "require": {
+      "event": [
+        "tanabata"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "tanabata",
+      "bond"
+    ],
+    "emotion": "kind",
+    "animation": "smile",
+    "voice": "gentle",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000087",
+    "text": "空見よう。",
+    "require": {
+      "event": [
+        "tanabata"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "tanabata",
+      "sky"
+    ],
+    "emotion": "calm",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000088",
+    "text": "月まるい。",
+    "require": {
+      "event": [
+        "moon_viewing"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "moon_viewing",
+      "sky"
+    ],
+    "emotion": "calm",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000089",
+    "text": "お団子ある？",
+    "require": {
+      "event": [
+        "moon_viewing"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "moon_viewing",
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 90,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000090",
+    "text": "月きれい。",
+    "require": {
+      "event": [
+        "moon_viewing"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "moon_viewing",
+      "sky"
+    ],
+    "emotion": "happy",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 100,
+    "favorite": true
+  },
+  {
+    "id": "0500000091",
+    "text": "夜散歩したい。",
+    "require": {
+      "event": [
+        "moon_viewing"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "moon_viewing",
+      "outside"
+    ],
+    "emotion": "curious",
+    "animation": "walk",
+    "voice": "quiet",
+    "weight": 60,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000092",
+    "text": "見上げる日。",
+    "require": {
+      "event": [
+        "moon_viewing"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "moon_viewing",
+      "sky"
+    ],
+    "emotion": "calm",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000093",
+    "text": "おめでとう。",
+    "require": {
+      "event": [
+        "birthday"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "birthday"
+    ],
+    "emotion": "happy",
+    "animation": "wave",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000094",
+    "text": "生まれてきてくれてありがと。",
+    "require": {
+      "event": [
+        "birthday"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "birthday",
+      "bond"
+    ],
+    "emotion": "happy",
+    "animation": "smile",
+    "voice": "gentle",
+    "weight": 120,
+    "cooldown": 200,
+    "favorite": true
+  },
+  {
+    "id": "0500000095",
+    "text": "ケーキある？",
+    "require": {
+      "event": [
+        "birthday"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "birthday",
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 90,
+    "cooldown": 100,
+    "favorite": false
+  },
+  {
+    "id": "0500000096",
+    "text": "今日くらい主役でいい。",
+    "require": {
+      "event": [
+        "birthday"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "birthday",
+      "emotion"
+    ],
+    "emotion": "kind",
+    "animation": "smile",
+    "voice": "gentle",
+    "weight": 100,
+    "cooldown": 150,
+    "favorite": true
+  },
+  {
+    "id": "0500000097",
+    "text": "来年も祝おう。",
+    "require": {
+      "event": [
+        "birthday"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "event",
+      "birthday",
+      "future",
+      "bond"
+    ],
+    "emotion": "happy",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 90,
+    "cooldown": 200,
+    "favorite": true
+  }
+]

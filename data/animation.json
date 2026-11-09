@@ -1,0 +1,163 @@
+{
+  "idle": {
+    "sheet": "./assets/character/idle.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 1,
+    "fps": 1,
+    "loop": false,
+    "interrupt": "queue"
+  },
+
+  "blink": {
+    "sheet": "./assets/character/blink.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 2,
+    "fps": 4,
+    "loop": false,
+    "interrupt": "queue",
+    "weight": 40
+  },
+
+  "tail": {
+    "sheet": "./assets/character/tail.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 2,
+    "fps": 4,
+    "loop": false,
+    "interrupt": "queue",
+    "weight": 30
+  },
+
+  "walk": {
+    "sheet": "./assets/character/walk.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 4,
+    "fps": 4,
+    "loop": true,
+    "interrupt": "queue",
+    "weight": 10,
+    "speed": 55
+  },
+
+  "sleep": {
+    "sheet": "./assets/character/sleep.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 2,
+    "fps": 1,
+    "loop": true,
+    "interrupt": "ignore"
+  },
+
+  "eating": {
+    "sheet": "./assets/character/eating.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 3,
+    "fps": 4,
+    "loop": false,
+    "interrupt": "ignore"
+  },
+
+  "watching_outside": {
+    "sheet": "./assets/character/watching_outside.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 2,
+    "fps": 4,
+    "loop": false,
+    "interrupt": "cancel",
+    "holdLastFrame": {
+      "min": 10000,
+      "max": 20000
+    }
+  },
+
+  "happy": {
+    "sheet": "./assets/character/happy.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 2,
+    "fps": 2,
+    "loop": false,
+    "interrupt": "ignore",
+    "holdLastFrame": {
+      "min": 3000,
+      "max": 5000
+    }
+  },
+
+  "angry": {
+    "sheet": "./assets/character/angry.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 2,
+    "fps": 2,
+    "loop": false,
+    "interrupt": "ignore",
+    "holdLastFrame": {
+      "min": 3000,
+      "max": 5000
+    }
+  },
+
+  "sad": {
+    "sheet": "./assets/character/sad.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 2,
+    "fps": 2,
+    "loop": false,
+    "interrupt": "ignore",
+    "holdLastFrame": {
+      "min": 3000,
+      "max": 5000
+    }
+  },
+
+  "shy": {
+    "sheet": "./assets/character/shy.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 2,
+    "fps": 2,
+    "loop": false,
+    "interrupt": "ignore",
+    "holdLastFrame": {
+      "min": 3000,
+      "max": 5000
+    }
+  },
+
+  "surprised": {
+    "sheet": "./assets/character/surprised.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 2,
+    "fps": 2,
+    "loop": false,
+    "interrupt": "ignore",
+    "holdLastFrame": {
+      "min": 3000,
+      "max": 5000
+    }
+  },
+
+  "sleepy": {
+    "sheet": "./assets/character/sleepy.png",
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 5,
+    "fps": 3,
+    "loop": false,
+    "interrupt": "queue",
+    "holdLastFrame": {
+      "min": 1000,
+      "max": 3000
+    }
+  }
+}

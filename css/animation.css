@@ -1,0 +1,119 @@
+/* ==========================================
+   Character
+========================================== */
+#character{
+    position:absolute;
+
+    width:128px;
+    height:128px;
+
+    overflow:hidden;
+    image-rendering:pixelated;
+}
+
+#character-sprite{
+    position:absolute;
+    left:0;
+    top:0;
+
+    display:block;
+    image-rendering:pixelated;
+    transform-origin:center;
+
+    width:128px;
+}
+/* ==========================================
+   Dialogue
+========================================== */
+
+.dialog-show {
+    animation: dialogShow 0.25s ease forwards;
+}
+
+.dialog-hide {
+    animation: dialogHide 0.25s ease forwards;
+}
+
+@keyframes dialogShow {
+
+    from {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes dialogHide {
+
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(18px);
+    }
+}
+
+/* ==========================================
+   Menu
+========================================== */
+
+.menu-open {
+    animation: menuOpen 0.25s ease forwards;
+}
+
+.menu-close {
+    animation: menuClose 0.22s ease forwards;
+}
+
+@keyframes menuOpen {
+
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes menuClose {
+
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+/* ==========================================
+   Pop
+========================================== */
+
+.pop {
+    animation: popAnimation 0.25s ease;
+}
+
+@keyframes popAnimation {
+
+    0% {
+        transform: scale(0.9);
+    }
+
+    70% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+

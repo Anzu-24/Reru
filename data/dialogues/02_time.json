@@ -1,0 +1,1837 @@
+[
+  {
+    "id": "0200000001",
+    "text": "もう暗いね。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "daily"
+    ],
+    "emotion": "calm",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0200000002",
+    "text": "もう寝るの？",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "player"
+    ],
+    "emotion": "normal",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000003",
+    "text": "明日早いでしょ。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "player"
+    ],
+    "emotion": "kind",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 20,
+    "favorite": true
+  },
+  {
+    "id": "0200000004",
+    "text": "ズー。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep",
+      "joke"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 40,
+    "cooldown": 30,
+    "favorite": false
+  },
+  {
+    "id": "0200000005",
+    "text": "お風呂めんどくさい…。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "self"
+    ],
+    "emotion": "lazy",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000006",
+    "text": "明日くさくてもいいかな。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "joke",
+      "night"
+    ],
+    "emotion": "lazy",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 40,
+    "cooldown": 40,
+    "favorite": true
+  },
+  {
+    "id": "0200000007",
+    "text": "疲れた？",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "night"
+    ],
+    "emotion": "kind",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 12,
+    "favorite": true
+  },
+  {
+    "id": "0200000008",
+    "text": "もう寝たら？",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "sleep",
+      "player"
+    ],
+    "emotion": "kind",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0200000009",
+    "text": "おやすみ。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "sleep"
+    ],
+    "emotion": "calm",
+    "animation": "wave",
+    "voice": "quiet",
+    "weight": 120,
+    "cooldown": 8,
+    "favorite": true
+  },
+  {
+    "id": "0200000010",
+    "text": "また明日ね。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "player"
+    ],
+    "emotion": "happy",
+    "animation": "wave",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 15,
+    "favorite": true
+  },
+  {
+    "id": "0200000011",
+    "text": "もうこんな時間。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "time"
+    ],
+    "emotion": "surprised",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000012",
+    "text": "夜更かしはほどほどにね。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "player"
+    ],
+    "emotion": "kind",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": true
+  },
+  {
+    "id": "0200000013",
+    "text": "静かだね。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "emotion"
+    ],
+    "emotion": "calm",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 120,
+    "cooldown": 8,
+    "favorite": true
+  },
+  {
+    "id": "0200000014",
+    "text": "星見えるかな。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "weather"
+    ],
+    "emotion": "curious",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000015",
+    "text": "今日終わっちゃう。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "emotion"
+    ],
+    "emotion": "sad",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 60,
+    "cooldown": 30,
+    "favorite": true
+  },
+  {
+    "id": "0200000016",
+    "text": "眠そう。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "sleep"
+    ],
+    "emotion": "sleepy",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000017",
+    "text": "あくびうつった。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "sleep",
+      "joke"
+    ],
+    "emotion": "happy",
+    "animation": "yawn",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000018",
+    "text": "毛布ほしい。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "cold",
+      "sleep"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000019",
+    "text": "今日はいい日だった？",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "player",
+      "emotion"
+    ],
+    "emotion": "kind",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 30,
+    "favorite": true
+  },
+  {
+    "id": "0200000020",
+    "text": "ゆっくりね。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "player"
+    ],
+    "emotion": "kind",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000021",
+    "text": "暖かい。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "night",
+      "temperature"
+    ],
+    "emotion": "happy",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000022",
+    "text": "明日も来て。",
+    "require": {
+      "time": [
+        "night"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "bond"
+    ],
+    "emotion": "happy",
+    "animation": "wave",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 30,
+    "favorite": true
+  },
+  {
+    "id": "0200000023",
+    "text": "ごちそうさま。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "calm",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0200000024",
+    "text": "デザートある？",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "look",
+    "voice": "happy",
+    "weight": 70,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000025",
+    "text": "お腹いっぱい。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 120,
+    "cooldown": 8,
+    "favorite": false
+  },
+  {
+    "id": "0200000026",
+    "text": "食べすぎた。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food",
+      "self"
+    ],
+    "emotion": "lazy",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000027",
+    "text": "ケーキはおもい。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "normal",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 50,
+    "cooldown": 30,
+    "favorite": false
+  },
+  {
+    "id": "0200000028",
+    "text": "お茶ほしい。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food",
+      "drink"
+    ],
+    "emotion": "normal",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0200000029",
+    "text": "目が開かない。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep",
+      "morning"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 120,
+    "cooldown": 8,
+    "favorite": false
+  },
+  {
+    "id": "0200000030",
+    "text": "眠い…。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep",
+      "morning"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 120,
+    "cooldown": 8,
+    "favorite": false
+  },
+  {
+    "id": "0200000031",
+    "text": "ちょっと寝かせて。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0200000032",
+    "text": "もう起きるよ…。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep",
+      "morning"
+    ],
+    "emotion": "sleepy",
+    "animation": "stretch",
+    "voice": "sleepy",
+    "weight": 80,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0200000033",
+    "text": "起きなきゃ…。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep"
+    ],
+    "emotion": "sleepy",
+    "animation": "stretch",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0200000034",
+    "text": "もう…無理。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep",
+      "emotion"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 60,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000035",
+    "text": "二度寝が幸せ。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep",
+      "emotion"
+    ],
+    "emotion": "happy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 100,
+    "cooldown": 15,
+    "favorite": true
+  },
+  {
+    "id": "0200000036",
+    "text": "ぬ。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 8,
+    "favorite": false
+  },
+  {
+    "id": "0200000037",
+    "text": "床あったかい。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "room",
+      "sleep"
+    ],
+    "emotion": "happy",
+    "animation": "sleep",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000038",
+    "text": "ブロッコリー…。",
+    "require": {
+      "time": [
+        "morning"
+      ],
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "dream",
+      "joke"
+    ],
+    "emotion": "happy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 20,
+    "cooldown": 50,
+    "favorite": true
+  },
+  {
+    "id": "0200000039",
+    "text": "あと五分…。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 120,
+    "cooldown": 8,
+    "favorite": false
+  },
+  {
+    "id": "0200000040",
+    "text": "布団ください。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep",
+      "room"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0200000041",
+    "text": "今日休みでいい？",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep",
+      "daily"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000042",
+    "text": "夢の続き…。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "dream",
+      "sleep"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000043",
+    "text": "起こさないで…。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 100,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000044",
+    "text": "まだ夜。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep",
+      "time"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 70,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000045",
+    "text": "まぶしい。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "weather",
+      "morning"
+    ],
+    "emotion": "sleepy",
+    "animation": "look",
+    "voice": "sleepy",
+    "weight": 80,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0200000046",
+    "text": "枕最高。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep",
+      "room"
+    ],
+    "emotion": "happy",
+    "animation": "sleep",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000047",
+    "text": "布団が離してくれない。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep",
+      "joke"
+    ],
+    "emotion": "happy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": true
+  },
+  {
+    "id": "0200000048",
+    "text": "Zzz...",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 120,
+    "cooldown": 8,
+    "favorite": false
+  },
+  {
+    "id": "0200000049",
+    "text": "むにゃ。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 100,
+    "cooldown": 8,
+    "favorite": false
+  },
+  {
+    "id": "0200000050",
+    "text": "早起きは三文の徳！",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "morning",
+      "daily"
+    ],
+    "emotion": "happy",
+    "animation": "stretch",
+    "voice": "happy",
+    "weight": 60,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000051",
+    "text": "散歩行こうかな。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "outside",
+      "morning"
+    ],
+    "emotion": "happy",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 70,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000052",
+    "text": "目、覚めちゃった。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "morning"
+    ],
+    "emotion": "normal",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 80,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0200000053",
+    "text": "空気おいしい。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "weather",
+      "outside"
+    ],
+    "emotion": "happy",
+    "animation": "look",
+    "voice": "happy",
+    "weight": 60,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000054",
+    "text": "朝って静か。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "morning",
+      "emotion"
+    ],
+    "emotion": "calm",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 12,
+    "favorite": true
+  },
+  {
+    "id": "0200000055",
+    "text": "今日は頑張れそう。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "morning",
+      "emotion"
+    ],
+    "emotion": "happy",
+    "animation": "stretch",
+    "voice": "happy",
+    "weight": 60,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000056",
+    "text": "朝日まぶしい。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "weather",
+      "morning"
+    ],
+    "emotion": "normal",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 70,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000057",
+    "text": "コーヒーの匂い。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food",
+      "morning"
+    ],
+    "emotion": "happy",
+    "animation": "smell",
+    "voice": "quiet",
+    "weight": 50,
+    "cooldown": 30,
+    "favorite": false
+  },
+  {
+    "id": "0200000058",
+    "text": "今日も始まる。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "morning",
+      "daily"
+    ],
+    "emotion": "normal",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000059",
+    "text": "眠気どこいった。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep",
+      "morning"
+    ],
+    "emotion": "surprised",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 50,
+    "cooldown": 30,
+    "favorite": false
+  },
+  {
+    "id": "0200000060",
+    "text": "散歩日和かも。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "weather",
+      "outside"
+    ],
+    "emotion": "happy",
+    "animation": "look",
+    "voice": "happy",
+    "weight": 60,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000061",
+    "text": "起きちゃった。",
+    "require": {
+      "time": [
+        "morning"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "morning"
+    ],
+    "emotion": "normal",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 90,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0200000062",
+    "text": "もう動かない！",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "self",
+      "emotion"
+    ],
+    "emotion": "lazy",
+    "animation": "sit",
+    "voice": "normal",
+    "weight": 80,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0200000063",
+    "text": "ちゃんと食べな。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food",
+      "player"
+    ],
+    "emotion": "kind",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": true
+  },
+  {
+    "id": "0200000064",
+    "text": "もうひと頑張り！",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "emotion"
+    ],
+    "emotion": "happy",
+    "animation": "stretch",
+    "voice": "happy",
+    "weight": 70,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000065",
+    "text": "お腹すいた。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "normal",
+    "animation": "eat",
+    "voice": "normal",
+    "weight": 120,
+    "cooldown": 8,
+    "favorite": false
+  },
+  {
+    "id": "0200000066",
+    "text": "眠くなる時間。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep",
+      "daily"
+    ],
+    "emotion": "sleepy",
+    "animation": "stretch",
+    "voice": "sleepy",
+    "weight": 80,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0200000067",
+    "text": "ちょっと休憩。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "rest",
+      "daily"
+    ],
+    "emotion": "calm",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0200000068",
+    "text": "水飲んだ？",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "health"
+    ],
+    "emotion": "kind",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000069",
+    "text": "あつい。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "weather"
+    ],
+    "emotion": "hot",
+    "animation": "idle",
+    "voice": "sad",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000070",
+    "text": "のんびりいこう。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "emotion"
+    ],
+    "emotion": "calm",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": true
+  },
+  {
+    "id": "0200000071",
+    "text": "無理はダメ。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player"
+    ],
+    "emotion": "kind",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": true
+  },
+  {
+    "id": "0200000072",
+    "text": "あと少し。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "emotion"
+    ],
+    "emotion": "normal",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 70,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000073",
+    "text": "日向ぼっこしたい。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "weather",
+      "outside"
+    ],
+    "emotion": "happy",
+    "animation": "sit",
+    "voice": "happy",
+    "weight": 70,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000074",
+    "text": "ごろごろしたい。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "rest",
+      "self"
+    ],
+    "emotion": "lazy",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0200000075",
+    "text": "ごはんまだ？",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "hungry",
+    "animation": "eat",
+    "voice": "normal",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000076",
+    "text": "いい匂い。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "smell",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000077",
+    "text": "いただきます。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0200000078",
+    "text": "何食べようかな。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "normal",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 80,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0200000079",
+    "text": "満腹だ。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0200000080",
+    "text": "動けない。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food",
+      "self"
+    ],
+    "emotion": "lazy",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0200000081",
+    "text": "物足りないかも。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "normal",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 70,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000082",
+    "text": "肉！",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "excited",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 60,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000083",
+    "text": "ステーキ？",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "excited",
+    "animation": "idle",
+    "voice": "happy",
+    "weight": 50,
+    "cooldown": 25,
+    "favorite": false
+  },
+  {
+    "id": "0200000084",
+    "text": "葉っぱか…。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food",
+      "joke"
+    ],
+    "emotion": "sad",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 50,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000085",
+    "text": "かき氷はお腹にたまらない。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food",
+      "summer"
+    ],
+    "emotion": "normal",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 40,
+    "cooldown": 30,
+    "favorite": false
+  },
+  {
+    "id": "0200000086",
+    "text": "え…それだけ？",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "surprised",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 70,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000087",
+    "text": "おかわり。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 70,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0200000088",
+    "text": "おいしい。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food",
+      "emotion"
+    ],
+    "emotion": "happy",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 120,
+    "cooldown": 8,
+    "favorite": true
+  },
+  {
+    "id": "0200000089",
+    "text": "まあまあ。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "normal",
+    "animation": "eat",
+    "voice": "normal",
+    "weight": 80,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0200000090",
+    "text": "もう一口。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0200000091",
+    "text": "野菜も食べる。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "kind",
+    "animation": "eat",
+    "voice": "normal",
+    "weight": 50,
+    "cooldown": 25,
+    "favorite": false
+  },
+  {
+    "id": "0200000092",
+    "text": "甘い。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0200000093",
+    "text": "しょっぱい。",
+    "require": {
+      "time": [
+        "day"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food"
+    ],
+    "emotion": "normal",
+    "animation": "eat",
+    "voice": "normal",
+    "weight": 60,
+    "cooldown": 20,
+    "favorite": false
+  }
+]
