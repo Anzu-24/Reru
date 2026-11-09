@@ -1,0 +1,902 @@
+[
+  {
+    "id": "0400000001",
+    "text": "あったかい。",
+    "require": {
+      "season": [
+        "spring"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "spring"
+    ],
+    "emotion": "happy",
+    "animation": "look",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0400000002",
+    "text": "眠くなる季節。",
+    "require": {
+      "season": [
+        "spring"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "spring",
+      "sleep"
+    ],
+    "emotion": "sleepy",
+    "animation": "yawn",
+    "voice": "sleepy",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0400000003",
+    "text": "花、咲いてるね。",
+    "require": {
+      "season": [
+        "spring"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "spring",
+      "nature"
+    ],
+    "emotion": "calm",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0400000004",
+    "text": "春ってぼーっとする。",
+    "require": {
+      "season": [
+        "spring"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "spring",
+      "emotion"
+    ],
+    "emotion": "calm",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 90,
+    "cooldown": 15,
+    "favorite": true
+  },
+  {
+    "id": "0400000005",
+    "text": "新しい匂い。",
+    "require": {
+      "season": [
+        "spring"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "spring",
+      "nature"
+    ],
+    "emotion": "curious",
+    "animation": "smell",
+    "voice": "quiet",
+    "weight": 60,
+    "cooldown": 30,
+    "favorite": false
+  },
+  {
+    "id": "0400000006",
+    "text": "散歩したい。",
+    "require": {
+      "season": [
+        "spring"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "spring",
+      "outside"
+    ],
+    "emotion": "happy",
+    "animation": "walk",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": true
+  },
+  {
+    "id": "0400000007",
+    "text": "桜まだかな。",
+    "require": {
+      "season": [
+        "spring"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "spring",
+      "nature"
+    ],
+    "emotion": "curious",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 60,
+    "cooldown": 30,
+    "favorite": false
+  },
+  {
+    "id": "0400000008",
+    "text": "春風きもちいい。",
+    "require": {
+      "season": [
+        "spring"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "spring",
+      "weather"
+    ],
+    "emotion": "happy",
+    "animation": "sit",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0400000009",
+    "text": "虫は来ないで。",
+    "require": {
+      "season": [
+        "spring"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "spring",
+      "joke"
+    ],
+    "emotion": "bad",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 50,
+    "cooldown": 40,
+    "favorite": false
+  },
+  {
+    "id": "0400000010",
+    "text": "今日の空好き。",
+    "require": {
+      "season": [
+        "spring"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "spring",
+      "sky"
+    ],
+    "emotion": "happy",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0400000011",
+    "text": "花粉…。",
+    "require": {
+      "season": [
+        "spring"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "spring",
+      "health"
+    ],
+    "emotion": "bad",
+    "animation": "idle",
+    "voice": "sad",
+    "weight": 70,
+    "cooldown": 25,
+    "favorite": false
+  },
+  {
+    "id": "0400000012",
+    "text": "あつい。",
+    "require": {
+      "season": [
+        "summer"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "summer",
+      "hot"
+    ],
+    "emotion": "hot",
+    "animation": "idle",
+    "voice": "tired",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0400000013",
+    "text": "溶ける。",
+    "require": {
+      "season": [
+        "summer"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "summer",
+      "hot",
+      "joke"
+    ],
+    "emotion": "hot",
+    "animation": "idle",
+    "voice": "tired",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": true
+  },
+  {
+    "id": "0400000014",
+    "text": "アイス…。",
+    "require": {
+      "season": [
+        "summer"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "summer",
+      "food"
+    ],
+    "emotion": "want",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0400000015",
+    "text": "扇風機から離れられない。",
+    "require": {
+      "season": [
+        "summer"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "summer",
+      "room"
+    ],
+    "emotion": "lazy",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 25,
+    "favorite": true
+  },
+  {
+    "id": "0400000016",
+    "text": "水浴びしたい。",
+    "require": {
+      "season": [
+        "summer"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "summer"
+    ],
+    "emotion": "hot",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 50,
+    "cooldown": 30,
+    "favorite": false
+  },
+  {
+    "id": "0400000017",
+    "text": "セミ元気だね。",
+    "require": {
+      "season": [
+        "summer"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "summer",
+      "nature"
+    ],
+    "emotion": "surprised",
+    "animation": "listen",
+    "voice": "normal",
+    "weight": 60,
+    "cooldown": 30,
+    "favorite": false
+  },
+  {
+    "id": "0400000018",
+    "text": "夏って長い。",
+    "require": {
+      "season": [
+        "summer"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "summer"
+    ],
+    "emotion": "normal",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 60,
+    "cooldown": 30,
+    "favorite": false
+  },
+  {
+    "id": "0400000019",
+    "text": "日陰ください。",
+    "require": {
+      "season": [
+        "summer"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "summer",
+      "hot"
+    ],
+    "emotion": "hot",
+    "animation": "idle",
+    "voice": "tired",
+    "weight": 70,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0400000020",
+    "text": "汗かいた。",
+    "require": {
+      "season": [
+        "summer"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "summer",
+      "health"
+    ],
+    "emotion": "tired",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0400000021",
+    "text": "冷たいもの食べたい。",
+    "require": {
+      "season": [
+        "summer"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "summer",
+      "food"
+    ],
+    "emotion": "want",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0400000022",
+    "text": "涼しい…はず。",
+    "require": {
+      "season": [
+        "autumn"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "autumn"
+    ],
+    "emotion": "normal",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0400000023",
+    "text": "秋好き。",
+    "require": {
+      "season": [
+        "autumn"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "autumn"
+    ],
+    "emotion": "happy",
+    "animation": "sit",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": true
+  },
+  {
+    "id": "0400000024",
+    "text": "空が高い。",
+    "require": {
+      "season": [
+        "autumn"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "autumn",
+      "sky"
+    ],
+    "emotion": "calm",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 25,
+    "favorite": false
+  },
+  {
+    "id": "0400000025",
+    "text": "食べる季節。",
+    "require": {
+      "season": [
+        "autumn"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "autumn",
+      "food"
+    ],
+    "emotion": "happy",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 15,
+    "favorite": true
+  },
+  {
+    "id": "0400000026",
+    "text": "焼き芋食べたい。",
+    "require": {
+      "season": [
+        "autumn"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "autumn",
+      "food"
+    ],
+    "emotion": "want",
+    "animation": "eat",
+    "voice": "happy",
+    "weight": 70,
+    "cooldown": 25,
+    "favorite": false
+  },
+  {
+    "id": "0400000027",
+    "text": "金木犀の匂い。",
+    "require": {
+      "season": [
+        "autumn"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "autumn",
+      "nature"
+    ],
+    "emotion": "calm",
+    "animation": "smell",
+    "voice": "quiet",
+    "weight": 50,
+    "cooldown": 40,
+    "favorite": false
+  },
+  {
+    "id": "0400000028",
+    "text": "落ち葉いっぱい。",
+    "require": {
+      "season": [
+        "autumn"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "autumn",
+      "nature"
+    ],
+    "emotion": "curious",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 50,
+    "cooldown": 40,
+    "favorite": false
+  },
+  {
+    "id": "0400000029",
+    "text": "散歩しやすいね。",
+    "require": {
+      "season": [
+        "autumn"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "autumn",
+      "outside"
+    ],
+    "emotion": "happy",
+    "animation": "walk",
+    "voice": "happy",
+    "weight": 70,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0400000030",
+    "text": "夜長い。",
+    "require": {
+      "season": [
+        "autumn"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "autumn",
+      "night"
+    ],
+    "emotion": "calm",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 60,
+    "cooldown": 30,
+    "favorite": false
+  },
+  {
+    "id": "0400000031",
+    "text": "眠くなる。",
+    "require": {
+      "season": [
+        "autumn"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "autumn",
+      "sleep"
+    ],
+    "emotion": "sleepy",
+    "animation": "yawn",
+    "voice": "sleepy",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0400000032",
+    "text": "秋ってあるの？",
+    "require": {
+      "season": [
+        "autumn"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "autumn",
+      "joke"
+    ],
+    "emotion": "confused",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 40,
+    "cooldown": 50,
+    "favorite": true
+  },
+  {
+    "id": "0400000033",
+    "text": "本当に秋？",
+    "require": {
+      "season": [
+        "autumn"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "autumn",
+      "joke"
+    ],
+    "emotion": "confused",
+    "animation": "idle",
+    "voice": "normal",
+    "weight": 40,
+    "cooldown": 50,
+    "favorite": true
+  },
+  {
+    "id": "0400000034",
+    "text": "寒っ。",
+    "require": {
+      "season": [
+        "winter"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "winter",
+      "cold"
+    ],
+    "emotion": "cold",
+    "animation": "idle",
+    "voice": "tired",
+    "weight": 120,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0400000035",
+    "text": "毛布が親友。",
+    "require": {
+      "season": [
+        "winter"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "winter",
+      "sleep"
+    ],
+    "emotion": "happy",
+    "animation": "sleep",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": true
+  },
+  {
+    "id": "0400000036",
+    "text": "布団最強。",
+    "require": {
+      "season": [
+        "winter"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "winter",
+      "sleep"
+    ],
+    "emotion": "happy",
+    "animation": "sleep",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 15,
+    "favorite": true
+  },
+  {
+    "id": "0400000037",
+    "text": "手、冷たい。",
+    "require": {
+      "season": [
+        "winter"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "winter",
+      "cold"
+    ],
+    "emotion": "cold",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0400000038",
+    "text": "外出たくない。",
+    "require": {
+      "season": [
+        "winter"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "winter",
+      "outside"
+    ],
+    "emotion": "lazy",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 90,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0400000039",
+    "text": "ぬくぬくしたい。",
+    "require": {
+      "season": [
+        "winter"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "winter",
+      "room"
+    ],
+    "emotion": "want",
+    "animation": "sleep",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0400000040",
+    "text": "白い息。",
+    "require": {
+      "season": [
+        "winter"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "winter",
+      "weather"
+    ],
+    "emotion": "curious",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 25,
+    "favorite": false
+  },
+  {
+    "id": "0400000041",
+    "text": "冬眠したい。",
+    "require": {
+      "season": [
+        "winter"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "winter",
+      "sleep",
+      "joke"
+    ],
+    "emotion": "sleepy",
+    "animation": "sleep",
+    "voice": "sleepy",
+    "weight": 100,
+    "cooldown": 15,
+    "favorite": true
+  },
+  {
+    "id": "0400000042",
+    "text": "コタツない？",
+    "require": {
+      "season": [
+        "winter"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "winter",
+      "room"
+    ],
+    "emotion": "want",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 25,
+    "favorite": false
+  },
+  {
+    "id": "0400000043",
+    "text": "あったかい飲み物…。",
+    "require": {
+      "season": [
+        "winter"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "season",
+      "winter",
+      "drink"
+    ],
+    "emotion": "want",
+    "animation": "drink",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": false
+  }
+]

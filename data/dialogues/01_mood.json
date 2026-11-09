@@ -1,0 +1,954 @@
+[
+  {
+    "id": "0100000001",
+    "text": "へへ。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "emotion"
+    ],
+    "emotion": "happy",
+    "animation": "laugh",
+    "voice": "happy",
+    "weight": 150,
+    "cooldown": 8,
+    "favorite": false
+  },
+  {
+    "id": "0100000002",
+    "text": "もうちょっと居てもいいでしょ。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "emotion"
+    ],
+    "emotion": "shy",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 15,
+    "favorite": true
+  },
+  {
+    "id": "0100000003",
+    "text": "ふふーん🎵",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "music",
+      "emotion"
+    ],
+    "emotion": "happy",
+    "animation": "laugh",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0100000004",
+    "text": "好きだよ。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "emotion"
+    ],
+    "emotion": "shy",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 40,
+    "cooldown": 30,
+    "favorite": true
+  },
+  {
+    "id": "0100000005",
+    "text": "よく来たね。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player"
+    ],
+    "emotion": "happy",
+    "animation": "wave",
+    "voice": "happy",
+    "weight": 120,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0100000006",
+    "text": "やっほ。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player"
+    ],
+    "emotion": "happy",
+    "animation": "wave",
+    "voice": "happy",
+    "weight": 120,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0100000007",
+    "text": "来ると思ってた。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "memory"
+    ],
+    "emotion": "shy",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": true
+  },
+  {
+    "id": "0100000008",
+    "text": "会えた。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "memory"
+    ],
+    "emotion": "happy",
+    "animation": "wave",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0100000009",
+    "text": "今日いい日。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "emotion",
+      "daily"
+    ],
+    "emotion": "happy",
+    "animation": "idle",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0100000010",
+    "text": "えへ。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "emotion"
+    ],
+    "emotion": "shy",
+    "animation": "laugh",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0100000011",
+    "text": "一緒にいる？",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player"
+    ],
+    "emotion": "shy",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": true
+  },
+  {
+    "id": "0100000012",
+    "text": "今日は機嫌いい。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "emotion"
+    ],
+    "emotion": "happy",
+    "animation": "idle",
+    "voice": "happy",
+    "weight": 120,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0100000013",
+    "text": "隣おいで。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player"
+    ],
+    "emotion": "shy",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 20,
+    "favorite": true
+  },
+  {
+    "id": "0100000014",
+    "text": "いっぱい話そう。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player"
+    ],
+    "emotion": "happy",
+    "animation": "wave",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0100000015",
+    "text": "楽しい。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "emotion"
+    ],
+    "emotion": "happy",
+    "animation": "laugh",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0100000016",
+    "text": "なんか嬉しい。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "emotion"
+    ],
+    "emotion": "happy",
+    "animation": "laugh",
+    "voice": "happy",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0100000017",
+    "text": "また来てね。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "memory"
+    ],
+    "emotion": "shy",
+    "animation": "wave",
+    "voice": "quiet",
+    "weight": 120,
+    "cooldown": 15,
+    "favorite": true
+  },
+  {
+    "id": "0100000018",
+    "text": "今日の君、好き。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "emotion"
+    ],
+    "emotion": "shy",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 30,
+    "cooldown": 30,
+    "favorite": true
+  },
+  {
+    "id": "0100000019",
+    "text": "のんびりしよ。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "room"
+    ],
+    "emotion": "happy",
+    "animation": "sit",
+    "voice": "quiet",
+    "weight": 100,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0100000020",
+    "text": "あげる。…気持ちだけ。",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "emotion"
+    ],
+    "emotion": "shy",
+    "animation": "wave",
+    "voice": "quiet",
+    "weight": 40,
+    "cooldown": 30,
+    "favorite": true
+  },
+  {
+    "id": "0100000021",
+    "text": "笑ってる？",
+    "require": {
+      "mood": [
+        "happy"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "emotion"
+    ],
+    "emotion": "happy",
+    "animation": "look",
+    "voice": "happy",
+    "weight": 80,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0100000022",
+    "text": "目がかゆい。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "self"
+    ],
+    "emotion": "sad",
+    "animation": "idle",
+    "voice": "sad",
+    "weight": 80,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0100000023",
+    "text": "なんか用？",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player"
+    ],
+    "emotion": "angry",
+    "animation": "look",
+    "voice": "sad",
+    "weight": 120,
+    "cooldown": 8,
+    "favorite": false
+  },
+  {
+    "id": "0100000024",
+    "text": "今日は壁になろうかな。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "self",
+      "joke"
+    ],
+    "emotion": "sad",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0100000025",
+    "text": "やっちまった。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "self"
+    ],
+    "emotion": "sad",
+    "animation": "idle",
+    "voice": "sad",
+    "weight": 70,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0100000026",
+    "text": "なんでだ",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "daily",
+      "emotion"
+    ],
+    "emotion": "angry",
+    "animation": "idle",
+    "voice": "sad",
+    "weight": 80,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0100000027",
+    "text": "まだいたの？",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player"
+    ],
+    "emotion": "angry",
+    "animation": "look",
+    "voice": "sad",
+    "weight": 80,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0100000028",
+    "text": "お腹痛い。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "food",
+      "self"
+    ],
+    "emotion": "sad",
+    "animation": "idle",
+    "voice": "sad",
+    "weight": 80,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0100000029",
+    "text": "頭痛い。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "self"
+    ],
+    "emotion": "sad",
+    "animation": "idle",
+    "voice": "sad",
+    "weight": 70,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0100000030",
+    "text": "…何？",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player"
+    ],
+    "emotion": "angry",
+    "animation": "look",
+    "voice": "sad",
+    "weight": 120,
+    "cooldown": 8,
+    "favorite": false
+  },
+  {
+    "id": "0100000031",
+    "text": "飽きた…。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "self",
+      "emotion"
+    ],
+    "emotion": "sad",
+    "animation": "idle",
+    "voice": "sad",
+    "weight": 70,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0100000032",
+    "text": "覗きすぎ。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player"
+    ],
+    "emotion": "angry",
+    "animation": "look",
+    "voice": "sad",
+    "weight": 60,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0100000033",
+    "text": "ちゃんとノックした？",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player"
+    ],
+    "emotion": "angry",
+    "animation": "look",
+    "voice": "normal",
+    "weight": 60,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0100000034",
+    "text": "はぁ。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "emotion"
+    ],
+    "emotion": "sad",
+    "animation": "stretch",
+    "voice": "sad",
+    "weight": 120,
+    "cooldown": 6,
+    "favorite": false
+  },
+  {
+    "id": "0100000035",
+    "text": "放っといて。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "emotion"
+    ],
+    "emotion": "angry",
+    "animation": "idle",
+    "voice": "sad",
+    "weight": 60,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0100000036",
+    "text": "話す気分じゃない。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "emotion"
+    ],
+    "emotion": "sad",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0100000037",
+    "text": "今日はダメ。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "emotion"
+    ],
+    "emotion": "sad",
+    "animation": "idle",
+    "voice": "sad",
+    "weight": 80,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0100000038",
+    "text": "むぅ。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "emotion"
+    ],
+    "emotion": "angry",
+    "animation": "idle",
+    "voice": "sad",
+    "weight": 100,
+    "cooldown": 8,
+    "favorite": false
+  },
+  {
+    "id": "0100000039",
+    "text": "面倒。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "self"
+    ],
+    "emotion": "sad",
+    "animation": "idle",
+    "voice": "sad",
+    "weight": 80,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0100000040",
+    "text": "眠くてイライラする。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "sleep",
+      "emotion"
+    ],
+    "emotion": "angry",
+    "animation": "stretch",
+    "voice": "sad",
+    "weight": 70,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0100000041",
+    "text": "しー。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "emotion"
+    ],
+    "emotion": "angry",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 80,
+    "cooldown": 12,
+    "favorite": false
+  },
+  {
+    "id": "0100000042",
+    "text": "今は静かに。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player"
+    ],
+    "emotion": "sad",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 90,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0100000043",
+    "text": "ため息しか出ない。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "emotion"
+    ],
+    "emotion": "sad",
+    "animation": "stretch",
+    "voice": "sad",
+    "weight": 70,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0100000044",
+    "text": "今日終わろうかな。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "emotion",
+      "sleep"
+    ],
+    "emotion": "sad",
+    "animation": "sleep",
+    "voice": "quiet",
+    "weight": 60,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0100000045",
+    "text": "何見てるの。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player"
+    ],
+    "emotion": "angry",
+    "animation": "look",
+    "voice": "sad",
+    "weight": 100,
+    "cooldown": 10,
+    "favorite": false
+  },
+  {
+    "id": "0100000046",
+    "text": "壁って落ち着く。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "room",
+      "emotion"
+    ],
+    "emotion": "sad",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0100000047",
+    "text": "うるさい。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player"
+    ],
+    "emotion": "angry",
+    "animation": "look",
+    "voice": "sad",
+    "weight": 40,
+    "cooldown": 20,
+    "favorite": false
+  },
+  {
+    "id": "0100000048",
+    "text": "返事めんどい。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "player",
+      "emotion"
+    ],
+    "emotion": "sad",
+    "animation": "idle",
+    "voice": "quiet",
+    "weight": 60,
+    "cooldown": 15,
+    "favorite": false
+  },
+  {
+    "id": "0100000049",
+    "text": "空でも見てよ。",
+    "require": {
+      "mood": [
+        "bad"
+      ]
+    },
+    "exclude": {},
+    "topics": [
+      "outside",
+      "weather"
+    ],
+    "emotion": "normal",
+    "animation": "look",
+    "voice": "quiet",
+    "weight": 70,
+    "cooldown": 15,
+    "favorite": false
+  }
+]

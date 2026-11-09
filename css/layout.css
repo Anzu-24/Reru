@@ -1,0 +1,217 @@
+/* ==========================================
+   Game Screen
+========================================== */
+
+#game{
+    position:absolute;
+
+    left:50%;
+    top:50%;
+
+    width:min(100vw,calc(100vh*540/960));
+    aspect-ratio:540/960;
+
+    transform:translate(-50%,-50%);
+    overflow:hidden;
+}
+
+/* ==========================================
+   Layers
+========================================== */
+
+.layer{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+}
+
+#background-layer img,
+#window-layer img,
+#room-layer img,
+#lighting-layer img{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    image-rendering:pixelated;
+}
+
+#background-layer{ z-index:1; }
+#room-layer{ z-index:2; }
+#lighting-layer{ z-index:3; }
+#character-layer{ z-index:4; }
+#effect-layer{ z-index:5; }
+#dialog-layer{ z-index:6; }
+#menu-layer{ z-index:7 }
+#fade-layer{ z-index:8; }
+#ui-layer{ z-index:9; }
+
+#effect-layer {
+    position:absolute;
+    inset:0;
+    background:#000;
+    opacity:0;
+    pointer-events:none;
+}
+
+
+
+/*ui*/
+#ui-base{
+    position:absolute;
+    inset:0;
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    image-rendering:pixelated;
+    z-index:0;
+    pointer-events:none;
+}
+
+#login-days{
+    position:absolute;
+    left:30%;
+    top:2.2%;
+    transform:translateX(-50%);
+
+    font-family:
+        "Zen Maru Gothic",
+        "Hiragino Maru Gothic ProN",
+        sans-serif;
+
+    font-size:18px;
+    font-weight:600;
+
+    color:#5b4636;
+
+    text-shadow:
+        0 1px 0 #fff8,
+        0 0 4px #ffffff80;
+
+    letter-spacing:1px;
+}
+
+
+#menu-button{
+    position:absolute;
+    left:83%;
+    top:1%;
+
+    width:12%;
+    aspect-ratio:1;
+
+    background:none;
+    border:none;
+
+    z-index:20;
+}
+
+
+/* ==========================================
+   UI
+========================================== */
+
+#top-ui {
+    position: absolute;
+
+    top: 32px;
+    left: 32px;
+    right: 32px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    z-index: 50;
+}
+
+#status-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.status-box {
+    min-width: 220px;
+    padding: 14px 18px;
+}
+
+/* ==========================================
+   Bottom Dialogue
+========================================== */
+
+#dialog-box {
+    position: absolute;
+
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+
+    min-height: 180px;
+
+    padding: 28px;
+
+    z-index: 60;
+}
+
+#dialog-text {
+    line-height: 1.7;
+    word-break: break-word;
+}
+
+/* ==========================================
+   Start Screen
+========================================== */
+
+#start-screen{
+    position:absolute;
+    inset:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:9999;
+    cursor:pointer;
+}
+
+#start-message{
+    text-align:center;
+}
+
+/* ==========================================
+   Menu
+========================================== */
+
+#menu-panel {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+
+    width: 420px;
+    height: 100%;
+}
+
+.menu-item {
+    width: 100%;
+}
+
+/* ==========================================
+   Responsive
+========================================== */
+
+@media (max-width: 600px) {
+
+    #top-ui {
+        top: calc(24px + env(safe-area-inset-top));
+        left: 24px;
+        right: 24px;
+    }
+
+    #dialog-box {
+        left: 24px;
+        right: 24px;
+        bottom: calc(24px + env(safe-area-inset-bottom));
+    }
+}
